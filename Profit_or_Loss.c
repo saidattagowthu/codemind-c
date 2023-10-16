@@ -5,8 +5,8 @@ int main()
     scanf("%d%d",&x,&y);
     if (x<y)
     printf("Profit");
-    else if (x>y)
+    else if(x>y)
     printf("Loss");
-    else 
+    else
     printf("No Profit and No Loss");
 }
