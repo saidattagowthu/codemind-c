@@ -1,14 +1,15 @@
 #include<stdio.h>
 int main()
 {
-    int n,t,r,s=0,p=1;
+    int n,b,s=0,p=1,i;
     scanf("%d",&n);
     while(n!=0)
     {
-        r=n%10;
-        s=s+r;
-        p=p*r;
+        b=n%10;
+        s=s+b;
+        p=p*b;
         n=n/10;
+        
     }
     if(s==p)
     printf("Spy Number");
