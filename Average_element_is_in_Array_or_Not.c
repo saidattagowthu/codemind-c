@@ -17,7 +17,7 @@ int main()
         if(avg==a[i])
         c=1;
     }
-    if(c)
+    if(c>=1)
     printf("True");
     else
     printf("False");
